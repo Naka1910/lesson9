@@ -1,0 +1,22 @@
+
+
+@media (max-width:700px){
+    .block-2{
+        background-color: tomato;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:600px){
+    .navigation{
+        display: none;
+    }
+    .burger-icon{
+        display: block;
+    }
+}
+@media(max-width:700px){
+    .image-text{
+        font-size: 15px;
+        color: rgb(80, 255, 109);
+    }
+}

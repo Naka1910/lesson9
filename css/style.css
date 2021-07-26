@@ -1,0 +1,66 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    }
+.flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.header{
+    padding: 25px;
+}
+.list-class{
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.list-class a{
+    color: #3075BA;
+}
+.header img{
+    width: 80px;
+    height: 80px;
+}
+.img-block{
+    width: 300px;
+    height: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+.img-block img{
+    width: 100%;
+}
+.block-2{
+    color: royalblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+}
+.burger-icon{
+    font-size: 30px;
+    color: blue;
+    margin-right: 15px;
+    display: none;
+}
